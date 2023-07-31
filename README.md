@@ -68,6 +68,8 @@ We need to include the `imports.custom.ts` file in our `tsconfig.node.json`.
 
 ```
 
+It is important to remove all comments inside the `tsconfig.json` file, otherwise we will get a `SyntaxError` when compiling.
+
 ## Folder format 🗃️
 Folders hosted within `./src` must have the following format:
 ```
