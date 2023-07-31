@@ -75,8 +75,7 @@ Folders hosted within `./src` must have the following format:
     └── /components
     |   ├── index.ts <- Barrel
     |   ├── Card.component.ts
-    |   ├── Header.component.ts
-    |   └── App.tsx
+    |   └── Header.component.ts
     └── /utilities
     |   ├── index.ts <- Barrel
     |   └── Math.utility.ts
