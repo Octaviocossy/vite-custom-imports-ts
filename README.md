@@ -58,6 +58,13 @@ export default defineConfig({
     alias: getFoldersAbsolutePath(),
   },
 });
+```
+
+We need to include the `imports.custom.ts` file in our `tsconfig.node.json`.
+```json
+{
+  "include": ["vite.config.ts", "imports.custom.ts"]
+}
 
 ```
 
